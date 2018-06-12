@@ -1,0 +1,134 @@
+html{
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+ height: 100%;
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top, #1e5799 0%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #1e5799 0%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #1e5799 0%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+font-family: arial,helvetica,sans-serif;
+background-repeat: no-repeat;
+background-attachment: fixed;
+    
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.title h2 {
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.products-name {
+    position: relative;
+}
+
+.container-art {
+    text-align: center;
+}
+
+.container-art img {
+    border: 10px solid black;
+    border-radius: 5px;
+}
+
+.container-art img:hover {
+    border:5px solid black;
+    border-radius: 2px;
+}
+
+.container-art p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.container-art span {
+    font-size: 40px;
+    color: #ffce00;
+}
+.art1 {
+    position: absolute;
+    top: 20px;
+    left: 160px;
+}
+
+.art2 {
+    position: absolute;
+    top: 20px;
+    right: 160px;
+}
+
+.art3 {
+    position: absolute;
+    top: 500px;
+    left: 160px;
+}
+
+.art4 {
+    position: absolute;
+    top: 500px;
+    right: 160px;
+}
+
+.art5 {
+    position: absolute;
+    left: 160px;
+    top: 1000px;
+}
+
+.art6 {
+    position: absolute;
+    right: 160px;
+    top: 1000px;
+}
+
+.art7 {
+    position: absolute;
+    left: 160px;
+    top: 1500px;
+}
+
+.art8 {
+    position: absolute;
+    right: 160px;
+    top: 1500px;
+}
+
+.buy-button {
+    background-color: #ffce00;
+    padding: 10px 40px;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.hero img {
+    width: 100%;
+    object-fit: cover;
+}
